@@ -4,10 +4,133 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
 
-
-.container{
+.mainContainer{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(90deg, #9DAFE5 , #78E5D7);
+    background: linear-gradient(200deg,#9DAFE5,#78E5D7 );
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
+
+.container{
+    margin-top: 8rem;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+}
+
+input{
+    height: 4rem;
+    border: none;
+    outline: none;
+    width: 24rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px); 
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#add{
+    background-color: #1198EC;
+    height: 4rem;
+    width: 4.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.1rem;
+    color: whitesmoke;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.todo{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.list{
+    /* margin: 0.4rem; */
+    font-weight: 600;
+    font-size: medium;
+    height: auto;
+    border: none;
+    outline: none;
+    width: 21rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px); 
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.delete{
+    background-color: #FE0000;
+    height: 4rem;
+    width: 4.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 0;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.done{
+    background-color: #90fe00;
+    height: 4rem;
+    width: 4.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 0;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:998px){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 60%;
+    }
+}
+
+/* @media (max-width:480px){
+    html{
+        font-size: 40%;
+    }
+
+    button{
+        height: 5rem;
+        width: 5rem;
+        font-size: 2rem;
+    }
+} */
