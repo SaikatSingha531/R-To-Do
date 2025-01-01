@@ -39,7 +39,10 @@ input{
     font-weight: 600;
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.3);
+
 }
+
 
 #add{
     background-color: #1198EC;
@@ -57,6 +60,13 @@ input{
 .todo{
     margin-top: 2rem;
     display: flex;
+    flex-direction: column;
+}
+
+.todos{
+    display: flex;
+    margin-top: 1rem;
+    /* padding: 1rem; */
 }
 
 .list{
