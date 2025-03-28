@@ -22,9 +22,9 @@ html{
 }
 
 h1{
-    font-weight: 300;
+    font-weight: 700;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
+    color: black;
     padding: 3rem;
 }
 
@@ -76,7 +76,7 @@ input{
     height: auto;
     border: none;
     outline: none;
-    width: 21rem;
+    width: 24rem;
     padding: 0.8rem;
     border-radius: 0.5rem;
     backdrop-filter: blur(10px); 
@@ -96,6 +96,7 @@ input{
     padding: 0.5rem;
     color: white;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
 .done{
@@ -109,6 +110,7 @@ input{
     padding: 0.5rem;
     cursor: pointer;
 }
+
 
 
 
